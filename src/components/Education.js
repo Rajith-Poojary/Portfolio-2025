@@ -14,7 +14,9 @@ const educationData = [
     institution: "Bhandarkars' Arts & Science College Kundapura",
     degree: "Bachelor of Computer Applications",
     duration: "2019 - 2022",
-    achievements: ["University topper with 90.77% in HSC boards", "Physics, Mathematics high scorer", "Chess Club"],
+achievements:
+  [ "Graduated with 70% from Mangalore University",
+  "Self-motivated learner passionate about full stack development and building impactful web applications"]
     // Corrected path using process.env.PUBLIC_URL
     image: process.env.PUBLIC_URL + "/images/Bck.png",
   },
