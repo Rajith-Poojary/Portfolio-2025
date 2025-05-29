@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#1E1E2E"/>
+  
+  <!-- App Interface -->
+  <rect x="40" y="40" width="320" height="320" rx="16" fill="#2A2A3C"/>
+  
+  <!-- Album Art -->
+  <rect x="60" y="60" width="280" height="180" rx="8" fill="#3A3A4C"/>
+  <circle cx="200" cy="150" r="70" fill="#4A4A5C"/>
+  <!-- Simplified face outline -->
+  <path d="M170 130 Q200 180 230 130" stroke="#8A8A9C" strokeWidth="3" fill="none"/>
+  <circle cx="180" cy="120" r="5" fill="#8A8A9C"/>
+  <circle cx="220" cy="120" r="5" fill="#8A8A9C"/>
+  
+  <!-- Progress Bar -->
+  <rect x="60" y="260" width="280" height="4" rx="2" fill="#3A3A4C"/>
+  <rect x="60" y="260" width="180" height="4" rx="2" fill="#7C4DFF"/>
+  
+  <!-- Time Labels -->
+  <text x="60" y="285" fill="#8A8A9C" font-size="12">2:45</text>
+  <text x="315" y="285" fill="#8A8A9C" font-size="12">4:30</text>
+  
+  <!-- Song Info -->
+  <text x="200" y="310" fill="#FFFFFF" font-size="16" text-anchor="middle" font-weight="bold">Shape of You</text>
+  <text x="200" y="330" fill="#8A8A9C" font-size="14" text-anchor="middle">Ed Sheeran</text>
+  
+  <!-- Control Buttons -->
+  <circle cx="160" cy="350" r="15" fill="#3A3A4C"/>
+  <circle cx="200" cy="350" r="20" fill="#7C4DFF"/>
+  <circle cx="240" cy="350" r="15" fill="#3A3A4C"/>
+  
+  <!-- Play Button Triangle -->
+  <path d="M195 342 L195 358 L210 350 Z" fill="white"/>
+  
+  <!-- Previous/Next Icons -->
+  <path d="M155 345 L165 350 L155 355 Z" fill="white"/>
+  <path d="M245 345 L235 350 L245 355 Z" fill="white"/>
+</svg>
