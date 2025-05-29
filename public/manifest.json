@@ -3,22 +3,22 @@
   "name": "Rajitha's Personal Portfolio",
   "icons": [
     {
-      "src": "/images/logo.png",
+      "src": "images/logo.png", // Corrected: removed leading slash
       "sizes": "64x64",
       "type": "image/png"
     },
     {
-      "src": "/images/logo.png",
+      "src": "images/logo.png", // Corrected: removed leading slash
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/images/logo.png",
+      "src": "images/logo.png", // Corrected: removed leading slash
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "/Portfolio-2025/", // Corrected: explicit path for GitHub Pages
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
