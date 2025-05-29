@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Download, ExternalLink } from 'lucide-react';
 
 const Resume = () => {
-  const pdfUrl = "/resume/Rajitha_Final1.pdf";
+  const pdfUrl = process.env.PUBLIC_URL + "/resume/Rajitha_Final1.pdf";
   const [isMobile, setIsMobile] = useState(false);
   
   const sectionVariants = {

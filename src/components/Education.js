@@ -7,21 +7,24 @@ const educationData = [
     degree: "Master's Of Computer Application",
     duration: "2022 - 2024",
     achievements: ["Successfully completed Master's with a CGPA of 7.3", "Presented a research paper at a college-level academic event"],
-    image: "/images/College_Aimit.png",
+    // Corrected path using process.env.PUBLIC_URL
+    image: process.env.PUBLIC_URL + "/images/College_Aimit.png",
   },
   {
     institution: "Bhandarkars' Arts & Science College Kundapura",
     degree: "Bachelor of Computer Applications",
     duration: "2019 - 2022",
     achievements: ["University topper with 90.77% in HSC boards", "Physics, Mathematics high scorer", "Chess Club"],
-    image: "/images/Bck.png",
+    // Corrected path using process.env.PUBLIC_URL
+    image: process.env.PUBLIC_URL + "/images/Bck.png",
   },
   // {
   //   institution: "SVERI's College of Engineering, Pandharpur",
   //   degree: "Bachelors of Technology, Mechanical Engineering",
   //   duration: "2018 - 2022",
   //   achievements: ["Member, Institute Innovation Council", "Member, MESA", "9.5 CGPA"],
-  //   image: "/images/sveri.jpeg",
+  //   // If you uncomment this, also correct its path:
+  //   // image: process.env.PUBLIC_URL + "/images/sveri.jpeg",
   // },
 ];
 
@@ -48,7 +51,7 @@ const Education = () => {
           >
             <div className="flex-shrink-0 w-24 h-24 mr-4">
               <motion.img
-                src={edu.image}
+                src={edu.image} // This will now use the correct path
                 alt={`${edu.institution} image`}
                 className="w-full h-full object-cover rounded-lg shadow-md"
                 initial={{ opacity: 0 }}

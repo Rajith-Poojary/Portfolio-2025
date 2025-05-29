@@ -3,32 +3,38 @@ import React from "react";
 const projects = [
   {
     name: "Music Player",
-    image: "images/music_thumb.svg",
+    // Use process.env.PUBLIC_URL for images in the public folder
+    image: process.env.PUBLIC_URL + "/images/music_thumb.svg",
     summary: "A sleek and modern music player with playlist support.",
   },
   {
     name: "E-commerce Store",
-    image: "/images/ecommerce_thumb.png",
+    // Use process.env.PUBLIC_URL for images in the public folder
+    image: process.env.PUBLIC_URL + "/images/ecommerce_thumb.png",
     summary: "An online store featuring cart, payment integration, and more.",
   },
   {
     name: "BookMyMovie",
-    image: "/images/movie_thumb.png",
+    // Use process.env.PUBLIC_URL for images in the public folder
+    image: process.env.PUBLIC_URL + "/images/movie_thumb.png",
     summary: "A platform to book movie tickets and view show timings.",
   },
   {
     name: "Food Delivery App",
-    image: "/images/food_thumb.png",
+    // Use process.env.PUBLIC_URL for images in the public folder
+    image: process.env.PUBLIC_URL + "/images/food_thumb.png",
     summary: "Order your favorite meals from nearby restaurants.",
   },
   {
     name: "AI Chatbot",
-    image: "/images/aiChat_thumb.png",
+    // Use process.env.PUBLIC_URL for images in the public folder
+    image: process.env.PUBLIC_URL + "/images/aiChat_thumb.png",
     summary: "Engage in interactive conversations with an AI assistant.",
   },
   {
     name: "To Do App",
-    image: "/images/todo_thumb.webp",
+    // Use process.env.PUBLIC_URL for images in the public folder
+    image: process.env.PUBLIC_URL + "/images/todo_thumb.webp",
     summary: "A simple and effective task management application.",
   },
 ];
@@ -47,12 +53,12 @@ const Projects = () => {
                 {/* Front */}
                 <div className="absolute w-full h-full">
                   <img
-                    src={project.image}
+                    src={project.image} // This will now use the correct path
                     alt={project.name}
                     className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
-                
+
                 {/* Back */}
                 <div className="absolute w-full h-full [transform:rotateY(180deg)] [backface-visibility:hidden] bg-white dark:bg-gray-800 rounded-lg flex flex-col items-center justify-center p-8 space-y-4">
                   <div className="w-full space-y-6">
