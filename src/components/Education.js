@@ -16,7 +16,7 @@ const educationData = [
     duration: "2019 - 2022",
 achievements:
   [ "Graduated with 70% from Mangalore University",
-  "Self-motivated learner passionate about full stack development and building impactful web applications"]
+  "Self-motivated learner passionate about full stack development and building impactful web applications"],
     // Corrected path using process.env.PUBLIC_URL
     image: process.env.PUBLIC_URL + "/images/Bck.png",
   },
