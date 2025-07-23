@@ -17,17 +17,8 @@ const educationData = [
 achievements:
   [ "Graduated with 70% from Mangalore University",
   "Self-motivated learner passionate about full stack development and building impactful web applications"],
-    // Corrected path using process.env.PUBLIC_URL
     image: process.env.PUBLIC_URL + "/images/Bck.png",
   },
-  // {
-  //   institution: "SVERI's College of Engineering, Pandharpur",
-  //   degree: "Bachelors of Technology, Mechanical Engineering",
-  //   duration: "2018 - 2022",
-  //   achievements: ["Member, Institute Innovation Council", "Member, MESA", "9.5 CGPA"],
-  //   // If you uncomment this, also correct its path:
-  //   // image: process.env.PUBLIC_URL + "/images/sveri.jpeg",
-  // },
 ];
 
 const Education = () => {

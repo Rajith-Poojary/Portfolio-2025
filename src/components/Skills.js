@@ -1,6 +1,4 @@
-import React from "react";
 import { motion } from "framer-motion";
-// import IconFlask from "../svgs/IconFlask";
 
 const Skills = () => {
   const skillCategories = [
@@ -19,24 +17,12 @@ const Skills = () => {
           color: "text-blue-500",
           proficiency: 70,
         },
-        // {
-        //   name: "Svelte",
-        //   logo: "fas fa-fire-alt",
-        //   color: "text-orange-500",
-        //   proficiency: 70,
-        // },
         {
-          name: "Node.js",
-          logo: "fab fa-node",
-          color: "text-green-500",
+          name: "Django REST API",
+          logo: "fab fa-python",
+          color: "text-rose-700",
           proficiency: 70,
         },
-        // {
-        //   name: "Flask",
-        //   svg:<IconFlask/>,
-        //   color: "text-gray-700",
-        //   proficiency: 60,
-        // },
         {
           name: "SQL Server",
           logo: "fas fa-database",
@@ -49,22 +35,10 @@ const Skills = () => {
           color: "text-green-600",
           proficiency: 70,
         },
-        // {
-        //   name: "Bootstrap",
-        //   logo: "fab fa-bootstrap",
-        //   color: "text-purple-600",
-        //   proficiency: 80,
-        // },
-        // {
-        //   name: "Tailwind CSS",
-        //   svg:(<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 73.29" className="h-10 w-10" fill="#44a8b3"><defs></defs><title>tailwind-css</title><path className="cls-1" d="M61.44,0Q36.87,0,30.72,24.43q9.22-12.21,21.5-9.16c4.68,1.16,8,4.53,11.72,8.26,6,6.08,13,13.11,28.22,13.11q24.57,0,30.72-24.43-9.21,12.22-21.5,9.16c-4.68-1.16-8-4.53-11.72-8.26C83.64,7,76.67,0,61.44,0ZM30.72,36.64Q6.15,36.64,0,61.07q9.23-12.21,21.5-9.16c4.68,1.16,8,4.53,11.72,8.27,6,6.07,13,13.11,28.22,13.11q24.57,0,30.72-24.43Q82.95,61.07,70.66,58c-4.68-1.16-8-4.53-11.72-8.26-6-6.08-13-13.12-28.22-13.12Z"/></svg>),
-        //   color: "text-blue-400",
-        //   proficiency: 40,
-        // },
         {
-          name: "Express.js",
-          logo: "fas fa-server",
-          color: "text-gray-700",
+          name: "Django",
+          logo: "fab fa-python",
+          color: "text-green-700",
           proficiency: 65,
         },
         {
@@ -79,12 +53,6 @@ const Skills = () => {
           color: "text-blue-400",
           proficiency: 70,
         },
-        // {
-        //   name: "C",
-        //   svg:(<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className="h-10 w-10" viewBox="0 0 48 48"><path fill="#283593" fillRule="evenodd" d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0 c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867 c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0 c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867 c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z" clipRule="evenodd"></path><path fill="#5c6bc0" fillRule="evenodd" d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255 c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836c3.343-1.872,13.405-7.507,16.748-9.38 c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z" clipRule="evenodd"></path><path fill="#fff" fillRule="evenodd" d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14 s-14-6.273-14-14S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z" clipRule="evenodd"></path><path fill="#3949ab" fillRule="evenodd" d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784 c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127L23.593,24L42.485,13.205z" clipRule="evenodd"></path></svg>),
-        //   color: "text-gray-600",
-        //   proficiency: 50,
-        // },
       ],
     },
     {
